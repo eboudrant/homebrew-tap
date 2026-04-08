@@ -1,14 +1,14 @@
 cask "papastud" do
-  version "0.0.2"
+  version "0.0.3"
 
   on_arm do
     url "https://github.com/eboudrant/papa-stud/releases/download/v#{version}/PapaStud-darwin-arm64-#{version}.zip"
-    sha256 "24d98e81f220fc67504cef22553ac51c1ecfd3acf842f9b3c4f0fde4b6ef477a"
+    sha256 "896bb4b9aab434ccac0e192735b854be080769eaeffa5871e70319686f0ba07c"
   end
 
   on_intel do
     url "https://github.com/eboudrant/papa-stud/releases/download/v#{version}/PapaStud-darwin-x64-#{version}.zip"
-    sha256 "c254103e704b3c8913e4551f13cf24b3be78bb9586d166d0fb681a38134cae7d"
+    sha256 "753f315e25b7ab3913a6ad725035a2b47b8ee4d59143b464aedd878c549fe84f"
   end
 
   name "PapaStud"
